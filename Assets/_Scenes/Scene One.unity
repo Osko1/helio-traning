@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 834807520}
   - component: {fileID: 834807519}
   - component: {fileID: 834807518}
+  - component: {fileID: 834807522}
   m_Layer: 0
   m_Name: Scour Board
   m_TagString: Untagged
@@ -417,6 +418,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -96.01}
+--- !u!114 &834807522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834807517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2378b1e4edd23846bd92d646b1d85dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &945539418
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,6 +440,7 @@ GameObject:
   - component: {fileID: 945539421}
   - component: {fileID: 945539420}
   - component: {fileID: 945539419}
+  - component: {fileID: 945539423}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -498,6 +511,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &945539423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945539418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcfe117514e4da249b5ae0f1f38f022b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1686771481
 GameObject:
   m_ObjectHideFlags: 0
